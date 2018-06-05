@@ -1,9 +1,9 @@
-package com.ashok.entry;
+package com.myntra.entry;
 
 import com.myntra.commons.entries.BaseEntry;
 
 /**
- * Created by ashok.maurya on 12/05/18.
+ * Created by neha.talesra on 12/05/18.
  */
 public class StudentEntry extends BaseEntry {
 

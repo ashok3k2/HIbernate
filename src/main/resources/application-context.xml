@@ -14,15 +14,15 @@
 		">
 
     <!--&lt;!&ndash; Scans the classpath for annotated components that will be auto-registered as Spring beans &ndash;&gt;-->
-    <context:component-scan base-package="com.ashok" />
+    <context:component-scan base-package="com.myntra" />
     <!-- Activates various annotations to be detected in bean classes e.g: @Autowired -->
     <context:annotation-config />
 
-    <bean id="studentManager" class="com.ashok.manager.impl.StudentManagerImpl">
+    <bean id="studentManager" class="com.myntra.manager.impl.StudentManagerImpl">
         <property name="dao" ref="studentDao"/>
     </bean>
 
-    <bean id="studentDao" class="com.ashok.dao.impl.StudentDAOImpl"/>
+    <bean id="studentDao" class="com.myntra.dao.impl.StudentDAOImpl"/>
     <!--<bean-->
             <!--class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
         <!--<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />-->
@@ -69,7 +69,7 @@
             </bean>
         </property>
         <!--<property name="persistenceUnitPostProcessors">-->
-            <!--<bean class="com.ashok.entity.HibernatePersistenceUnitPostProcessor"/>-->
+            <!--<bean class="com.myntra.entity.HibernatePersistenceUnitPostProcessor"/>-->
         <!--</property>-->
         <!--<property name="jpaProperties">-->
             <!--<props>-->

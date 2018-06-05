@@ -1,11 +1,11 @@
-package com.ashok.entity;
+package com.myntra.entity;
 
 import com.myntra.commons.entities.BaseEntity;
 
 import javax.persistence.Entity;
 
 /**
- * Created by ashok.maurya on 12/05/18.
+ * Created by neha.talesra on 12/05/18.
  */
 @Entity(name = "student")
 public class Student extends BaseEntity {

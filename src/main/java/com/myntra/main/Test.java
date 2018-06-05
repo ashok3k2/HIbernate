@@ -1,13 +1,13 @@
-package com.ashok.main;
+package com.myntra.main;
 
-import com.ashok.entry.StudentEntry;
-import com.ashok.service.impl.StudentServiceImpl;
+import com.myntra.entry.StudentEntry;
+import com.myntra.service.impl.StudentServiceImpl;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.ArrayList;
 
 /**
- * Created by ashok.maurya on 12/05/18.
+ * Created by neha.talesra on 12/05/18.
  */
 public class Test {
 

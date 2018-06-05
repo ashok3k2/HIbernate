@@ -1,9 +1,8 @@
-package com.ashok.service.impl;
+package com.myntra.service.impl;
 
-import com.ashok.entity.Student;
-import com.ashok.entry.StudentEntry;
-import com.ashok.manager.StudentManager;
-import com.ashok.manager.impl.StudentManagerImpl;
+import com.myntra.entity.Student;
+import com.myntra.entry.StudentEntry;
+import com.myntra.manager.StudentManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -11,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by ashok.maurya on 12/05/18.
+ * Created by neha.talesra on 12/05/18.
  */
 @Component
 public class StudentServiceImpl {
@@ -29,7 +28,7 @@ public class StudentServiceImpl {
         List<Student> students = new ArrayList<>();
         for (int i = 0; i< numberOfStudent;i++){
             Student student = new Student();
-            student.setName("Ashok Test "+i);
+            student.setName("Neha Test "+i);
             students.add(student);
         }
 

@@ -1,10 +1,10 @@
-package com.ashok.entity;
+package com.myntra.entity;
 
 import org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo;
 import org.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor;
 
 /**
- * Created by ashok.maurya on 15/05/18.
+ * Created by neha.talesra on 15/05/18.
  */
 public class HibernatePersistenceUnitPostProcessor implements PersistenceUnitPostProcessor {
 
